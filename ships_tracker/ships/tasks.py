@@ -1,4 +1,4 @@
-from ships_tracker.celery_app.celery import app
+from ships_tracker.ships.celery import app
 from ships_tracker.utils.data_uploader import upload_new_data
 
 
