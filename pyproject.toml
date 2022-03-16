@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ships_tracker"
+version = "0.0.1"
+description = "Test task for tracking ships"
+authors = ["Mikhail Monakhov <mih_monah@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.3"
+celery = {extras = ["redis"], version = "5.2.3"}
+openpyxl = "^3.0.9"
+djangorestframework = "^3.13.1"
+drf-yasg = "^1.20.0"
+black = "^22.1.0"
+schedule = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
